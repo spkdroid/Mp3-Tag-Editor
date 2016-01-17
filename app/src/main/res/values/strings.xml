@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2008, Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+
+<resources>
+
+    <string name="app_name">Mp3 Tag Editor</string>
+    <string name="howmp3cutter"><b>How to use Mp3 Cutter</b>\n 1) Tap the Image Above to start the music trimming process \n 2) Select your favorite song from the sdcard \n 3) Select the start time and end time and press the save button \n4) Your trimmed file is created in the folder named <b>mp3</b> in the external location</string>
+    <string name="howmp3merger"><b>How to use Mp3 Merger</b>\n 1) Tap the Image Above to start the music mergin \n 2)Select the songs that you want to merge \n 3) Press the save button the newly created merged mp3 file can be found in the sdcard in the folder named <b>mp3</b></string>
+    <string name="howfolder"><b>Find The Edited Music Files Very Easy</b>\n 1) You Can find all the list of music files which are trimmer and merged \n 2) You Can play the music file and set ringtone by just clicking the button</string>
+       <string name="example" >Example</string>
+       
+           <string name="action_settings" >Settings
+    </string>
+    <string name="dialog_title">Select</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string-array
+            name="dialog_array">
+        <item>Download</item>
+        <item>Play</item>
+    </string-array>
+    
+    
+    <string name="aboutapp">if you like the app please click the rate us button to give your view and suggestion about the app.Your Suggestion and review about the application are more valuable to us.Please Press the FAQ Button to find solution for all your problems</string>
+    <string name="equalizer">The Mp3Editor team has developed a Equalizer app which come as a plugin as beta development.The Equalizer will be added along with the editor in the upcoming version.</string>
+       
+ 
+    <!--
+     Main / media select activity
+     -->
+    <string name="main_activity_label">Dave</string>
+
+    <string name="search_edit_box">Search</string>
+
+    <string name="create_playlist_create_text_prompt">Search</string>
+    
+    <string name="create_playlist_create_text">search</string>
+    
+    <string name="new_playlist_name_template">Search</string>
+    
+    <string name="create_playlist_overwrite_text">search</string>
+    
+    <string name="button_start_record_activity">MusicPlayer</string>
+
+    <string name="sdcard_readonly">Sorry, the SD Card is mounted as read-only requires it to be writable.</string>
+    <string name="no_sdcard">Sorry, can\'t run unless you have an SD Card inserted.</string>
+    <string name="sdcard_shared">Sorry, can\'t run while your handset is mounted as a USB device.</string>
+
+    <string name="button_options">Options</string>
+
+    <!--
+     Edit activity
+     -->
+
+    <!-- Labels next to the start and end time edit boxes -->
+    <string name="start_label">Start:</string>
+    <string name="end_label">End:</string>
+
+    <string name="edit_intent">Edit</string>
+
+    <string name="time_seconds">seconds</string>
+
+    <!-- After you save a notification or ringtone and have more options
+         for what to do with them -->
+    <string name="what_to_do_with_ringtone">Saved!  Make this your default ringtone or assign it to a contact?</string>
+    <string name="set_default_notification">Saved!  Make this your default notification?</string>
+
+    <string name="make_default_ringtone_button">Make Default</string>
+    <string name="choose_contact_ringtone_button">Assign to Contact</string>
+    <string name="do_nothing_with_ringtone_button">Close</string>
+
+    <!-- Progress dialog text for loading or saving... -->
+    <string name="progress_dialog_loading">Loading...</string>
+    <string name="progress_dialog_saving">Saving...</string>
+
+    <!-- Image button descriptions for accessibility -->
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+    <string name="rewind">Rewind</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="ffwd">Fast forward</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="save_button">Save</string>
+
+    <!--
+     Menu items
+     -->
+
+    <string name="menu_save">Save</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_about">About</string>
+    <string name="menu_privacy">Privacy</string>
+    <string name="menu_show_all_audio">Show All Audio</string>
+
+    <!--
+     Context menu items
+     -->
+
+    <string name="context_menu_edit">Edit</string>
+    <string name="context_menu_delete">Delete</string>
+    <string name="context_menu_default_ringtone">Set as Default Ringtone</string>
+    <string name="context_menu_contact">Assign to Contact</string>
+    <string name="context_menu_default_notification">Set as Default Notification</string>
+
+    <!--
+     File Save dialog
+     -->
+
+    <string name="file_save_title">Save As:</string>
+    <string name="file_save_button_save">Save</string>
+    <string name="file_save_button_cancel">Cancel</string>
+
+    <string name="ringtone_type_label">Type:</string>
+
+    <string name="type_music">Music</string>
+    <string name="type_alarm">Alarm</string>
+    <string name="type_notification">Notification</string>
+    <string name="type_ringtone">Ringtone</string>
+
+    <string name="ringtone_name_label">Name:</string>
+
+    <string name="artist_name"></string>
+
+    <!--
+     Delete confirmation dialog
+     -->
+
+    <string name="delete_ringtone">Delete Ringtone</string>
+    <string name="delete_alarm">Delete Alarm</string>
+    <string name="delete_notification">Delete Notification</string>
+    <string name="delete_music">Delete Music</string>
+    <string name="delete_audio">Delete Audio</string>
+
+    <string name="confirm_delete_ringdroid">Are you sure?</string>
+    <string name="confirm_delete_non_ringdroid"
+    >Are you sure?</string>
+
+    <string name="delete_ok_button">Delete</string>
+    <string name="delete_cancel_button">Cancel</string>
+
+    <string name="delete_failed">Unable to delete file</string>
+
+    <!--
+     Success and error messages
+     -->
+
+    <string name="alert_title_success">Success</string>
+    <string name="alert_title_failure">Error</string>
+    <string name="alert_ok_button">OK</string>
+    <string name="alert_yes_button">Yes, please!</string>
+    <string name="alert_no_button">No, thanks.</string>
+
+    <string name="save_success_message">Saved!</string>
+    <string name="default_ringtone_success_message">Changed default ringtone</string>
+    <string name="default_notification_success_message">Changed default notification sound</string>
+    <string name="play_error">Unable to play this media file</string>
+    <string name="no_unique_filename">Unable to find unique filename</string>
+    <string name="delete_tmp_error">Error deleting temporary file</string>
+    <string name="record_error">Error launching Sound Recorder</string>
+    <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
+    <string name="write_error">Error writing file</string>
+    <string name="read_error">Error reading file</string>
+
+    <string name="no_space_error">Your SD card is full, there is not enough space to save this file.</string>
+
+    <string name="bad_extension_error">Sorry, App is not yet able to edit files of type</string>
+    <string name="no_extension_error">Sorry, App can\'t edit a file if it doesn\'t have an extension like .mp3 or .wav</string>
+
+    <!--
+     Choose Contact Activity
+     -->
+
+    <string name="choose_contact_title">Assign ringtone to which contact?</string>
+    <string name="success_contact_ringtone">Successfully assigned ringtone to:</string>
+
+    <!--
+     Sending information to server
+     -->
+ 
+   
+    <!--
+     About
+     -->
+
+   
+    <string name="button_play">Play</string>
+	<string name="button_pause">Pause</string>
+	<string name="button_skip">Skip</string>
+	<string name="label_filter">filter songs</string>
+	<string name="option_menu_enqueue_new">Enqueue</string>
+	<string name="option_menu_remove_all">Remove all</string>
+	<string name="option_menu_shuffle">Shuffle</string>
+	<string name="option_menu_enqueue_all">Enqueue all</string>
+	<string name="option_menu_exit">Back</string>
+	<string name="activity_name_songlist">Sonous Player</string>
+	<string name="activity_name_main">SimpleMusicPlayer</string>
+	<string name="service_name_player">SimpleMusicPlayer Service</string>
+	<string name="context_menu_play_now">Play now</string>
+	<string name="context_menu_play_next">Play next</string>
+	<string name="context_menu_remove">Remove from list</string>
+	<string name="context_menu_enqueue">Enqueue</string>
+	<string name="context_menu_move_up">Move up</string>
+	<string name="context_menu_move_down">Move down</string>
+	<string name="context_menu_clone">Clone</string>
+	<string name="msg_err_ejected">Media card ejected</string>
+	<string name="msg_err_notmounted">External storage not mounted</string>
+	<string name="msg_service_started">Player service started</string>
+	<string name="msg_service_stopped">Player service stopped</string>
+	<string name="msg_queue_empty">No songs enqueued !!!!!!!!  Please press the menu button to Navigate</string>
+	<string name="msg_mp_error">MediaPlayer error - unsupported song codec?
+	</string>
+	<string name="msg_mp_error_info">MediaPlayer error - %s</string>
+	<string name="dialog_are_you_sure">Are you sure?</string>
+	<string name="dialog_yes">Yes</string>
+	<string name="dialog_no">No</string>
+	<color name="listitem_small">#88AAFF</color>
+	<color name="listitem_big">#FFFFFF</color>
+	<color name="listitem_bg_normal">#000</color>
+	<color name="listitem_bg_selected">#888</color>
+	<color name="listitem_bg_highlight">#123</color>
+	<color name="listitem_divider">#333</color>
+	<string name="button_clear">Clear</string>
+	
+	<string name="FAQ">
+	    
+<p>
+Please click the menu button to edit the mp3 tagging process.
+\n
+\n
+\n
+1) Please select the Launch Button 
+\n
+2) Search for the song using our build in file manager and select the song from the list
+\n
+3) Edit the Tag of the music file and press the save button
+\n
+4) The Modified music file has been saved.
+</p>
+</string>
+
+	 <string-array name="genre">
+          <item>Blues</item>
+          <item>Classic Rock</item>
+   <item>Country</item>
+   <item>Dance</item>
+   <item>Disco</item>
+   <item>Funk</item>
+   <item>Grunge</item>
+   <item>Hip-Hop</item>
+   <item>Jazz</item>       
+   <item>Metal</item>
+  <item>New Age</item>
+  <item>Oldies</item>
+  <item>Other</item>
+  <item>Pop</item>
+  <item>R&amp;B</item>
+  <item>Rap</item>
+  <item>Reggae</item>
+  <item>Rock</item>
+  <item>Techno</item>
+  <item>Industrial</item>
+  <item>Alternative</item>
+  <item>Ska</item>
+  <item>Death Metal</item>
+  <item>Pranks</item>
+  <item>Soundtrack</item>
+  <item>Euro-Techno</item>
+  <item>Ambient</item>
+  <item>Trip-Hop</item>
+  <item>Vocal</item>
+  <item>Jazz+Funk</item>
+  <item>Fusion</item>
+  <item>Trance</item>
+  <item>Classical</item>
+  <item>Instrumental</item>
+  <item>Acid</item>
+  <item>House</item>
+  <item>Game</item>
+  <item>Sound Clip</item>
+  <item>Gospel</item>
+  <item>Noise</item>
+  <item>AlternRock</item>
+  <item>Bass</item>
+  <item>Soul</item>
+  <item>Punk</item>
+  <item>Space</item>
+  <item>Meditative</item>
+  <item>Instrumental Pop</item>
+  <item>Instrumental Rock</item>
+  <item>Ethnic</item>
+  <item>Gothic</item>
+  <item>Darkwave</item>
+  <item>Techno-Industrial</item>
+  <item>Electronic</item>
+<item>Pop-Folk</item>
+  <item>Eurodance</item>
+<item>Dream</item>
+<item>Southern Rock</item>
+ <item>Comedy</item>
+ <item>Cult</item>
+<item>Gangsta</item>
+ <item>Top</item>
+  <item>Christian Rap</item>
+  <item>Pop/Funk</item>
+  <item>Jungle</item>
+  <item>Native American</item>
+  <item>Cabaret</item>
+  <item>New Wave</item>
+  <item>Psychadelic</item>
+  <item>Rave</item>
+ <item> Showtunes</item>
+  <item>Trailer</item>
+  <item>Lo-Fi</item>
+  <item>Tribal</item>
+  <item>Acid Punk</item>
+  <item>Acid Jazz</item>
+  <item>Polka</item>
+  <item>Retro</item>
+  <item>Musical</item>
+  <item>Rock &amp; Roll</item>
+  <item>Hard Rock</item>
+  <item>Folk</item>
+  <item>Folk-Rock</item>
+  <item>National Folk</item>
+  <item>Swing</item>
+  <item>Fast Fusion</item>
+  <item>Bebob</item>
+  <item>Latin</item>
+  <item>Revival</item>
+  <item>Celtic</item>
+  <item>Bluegrass</item>
+  <item>Avantgarde</item>
+  <item>Gothic Rock</item>
+  <item>Progressive Rock</item>
+  <item>Psychedelic Rock</item>
+  <item>Symphonic Rock</item>
+ <item>Slow Rock</item>
+  <item>Big Band</item>
+  <item>Chorus</item>
+  <item>Easy Listening</item>
+  <item>Acoustic</item>
+<item> Humour</item>
+ <item>Speech</item>
+<item> Chanson</item>
+ <item>Opera</item>
+ <item>Chamber Music</item>
+ <item>Sonata</item>
+ <item>Symphony</item>
+ <item>Booty Bass</item>
+ <item>Primus</item>
+<item> Porn Groove</item>
+ <item>Satire</item>
+ <item>Slow Jam</item>
+ <item>Club</item>
+ <item>Tango</item>
+ <item>Samba</item>
+ <item>Folklore</item>
+ <item>Ballad</item>
+ <item>Power Ballad</item>
+ <item>Rhythmic Soul</item>
+<item> Freestyle</item>
+<item> Duet</item>
+<item> Punk Rock</item>
+<item> Drum Solo</item>
+<item> A capella</item>
+<item> Euro-House</item>
+<item> Dance Hall</item>
+    </string-array>
+	
+    
+    
+</resources>
