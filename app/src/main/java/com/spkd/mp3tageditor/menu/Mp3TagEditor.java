@@ -44,13 +44,6 @@ public class Mp3TagEditor extends Activity implements OnClickListener {
 	    tv=(TextView) findViewById(R.id.textView1);
 	    Typeface tf = Typeface.createFromAsset(getAssets(), "font.ttf");
 	    tv.setTypeface(tf);
-	    
-	 //   LoadAd();
-	    
-
-  //      AdView adView = (AdView)findViewById(R.id.bannermenuAd);
-   //     AdRequest adRequest = new AdRequest.Builder().build();
-    //    adView.loadAd(adRequest);
 	}
 
 	@Override
@@ -112,29 +105,5 @@ public class Mp3TagEditor extends Activity implements OnClickListener {
  .show();
 	}
 	
-	private void LoadAd() {
-		// TODO Auto-generated method stub
-		  final InterstitialAd interstitial = new InterstitialAd(this);
-          interstitial.setAdUnitId("ca-app-pub-1630625545189034/7357132503");
-          // interstitial.setAdUnitId("01010101");
-          // Create ad request.
-          AdRequest adRequest = new AdRequest.Builder().build();
-          // Begin loading your interstitial.
-          interstitial.loadAd(adRequest);
-          interstitial.setAdListener(new AdListener() {
-              @Override
-              public void onAdLoaded() {
-                  // TODO Auto-generated method stub
-                  interstitial.show();
-              }
-              
-              @Override
-              public void onAdFailedToLoad(int errorcode)
-              {
-              	LoadAd();
-              }
-              
-          });
-	}
 	
 }
